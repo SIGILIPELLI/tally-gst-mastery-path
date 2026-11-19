@@ -53,7 +53,7 @@ Start here → [Level 1 · Entry](level-1/index.md)
 
 TallyPrime installed on Windows (the free Educational Mode is enough for every exercise — it limits voucher dates, not features) and a calculator or spreadsheet for checking figures. No prior accounting knowledge is assumed. For real GST filing you would also need a GSTIN and GST portal login, but the course uses practice data throughout.
 
-🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@sigilipelli) on YouTube — Shorts and full walkthroughs of these lessons.
+🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@learnmasterypath) on YouTube — Shorts and full walkthroughs of these lessons.
 
 ## More from the Mastery Path series
 
