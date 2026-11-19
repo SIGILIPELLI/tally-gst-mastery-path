@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-05VBGCXN12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-05VBGCXN12');
+  </script>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tally Prime & GST Mastery Path">
+  <meta property="og:title" content="{{ page.title | default('Tally Prime & GST Mastery Path') }}">
+  <meta property="og:description" content="{{ page.meta.description if page.meta and page.meta.description else 'A structured, module-wise TallyPrime, GST and accounting training program from entry level to master level — free, with a hands-on exercise in every module.' }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="https://learnmasterypath.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default('Tally Prime & GST Mastery Path') }}">
+  <meta name="twitter:description" content="{{ page.meta.description if page.meta and page.meta.description else 'A structured, module-wise TallyPrime, GST and accounting training program from entry level to master level — free, with a hands-on exercise in every module.' }}">
+  <meta name="twitter:image" content="https://learnmasterypath.com/og-image.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9440969811959397"
+     crossorigin="anonymous"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Tally Prime & GST Mastery Path",
+    "description": "A structured, module-wise TallyPrime, GST and accounting training program from entry level to master level — free, with a hands-on exercise in every module.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Mastery Path",
+      "sameAs": "https://learnmasterypath.com/"
+    },
+    "isAccessibleForFree": true,
+    "url": "{{ page.canonical_url | default('https://learnmasterypath.com/tally-gst-mastery-path/') }}"
+  }
+  </script>
+  {% if page.meta and page.meta.description %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": {{ (page.title | default('Tally Prime & GST Mastery Path lesson')) | tojson }},
+    "description": {{ page.meta.description | tojson }},
+    "url": {{ page.canonical_url | tojson }},
+    "isPartOf": {
+      "@type": "Course",
+      "name": "Tally Prime & GST Mastery Path",
+      "url": "https://learnmasterypath.com/tally-gst-mastery-path/"
+    },
+    "isAccessibleForFree": true,
+    "learningResourceType": "Lesson",
+    "inLanguage": "en"
+  }
+  </script>
+  {% endif %}
+  <style>
+    .md-banner { background-color: #1f7a63; color: #fff; font-size: 0.72rem; }
+    .md-banner a:hover { text-decoration: underline !important; }
+    .mp-sitelinks a { color: var(--md-typeset-a-color); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Mastery Path", "item": "https://learnmasterypath.com/"},
+      {"@type": "ListItem", "position": 2, "name": {{ config.site_name | tojson }}, "item": {{ config.site_url | tojson }}}{% if page and page.title and not page.is_homepage %},
+      {"@type": "ListItem", "position": 3, "name": {{ page.title | tojson }}, "item": {{ page.canonical_url | tojson }}}{% endif %}
+    ]
+  }
+  </script>
+{% endblock %}
+
+{% block announce %}
+  <a href="https://learnmasterypath.com/" style="color: inherit; text-decoration: none;">
+    &larr; Mastery Path &middot; all 100 free courses
+  </a>
+  <span style="opacity: .6; margin: 0 .6em;">|</span>
+  <a href="https://learnmasterypath.com/resume/" style="color: inherit; font-weight: 700; text-decoration: none;">
+    Got the skills? Free resume ATS check &rarr;
+  </a>
+{% endblock %}
+
+{% block footer %}
+  <nav class="mp-sitelinks" aria-label="Mastery Path"
+       style="text-align: center; padding: 0.9rem 1rem; font-size: 0.72rem; line-height: 1.9; background: var(--md-default-bg-color); border-top: 1px solid var(--md-default-fg-color--lightest);">
+    <a href="https://learnmasterypath.com/">Mastery Path home</a> &middot;
+    <a href="https://learnmasterypath.com/about.html">About</a> &middot;
+    <a href="https://learnmasterypath.com/contact.html">Contact</a> &middot;
+    <a href="https://learnmasterypath.com/privacy.html">Privacy Policy</a> &middot;
+    <a href="https://learnmasterypath.com/license.html">License</a>
+  </nav>
+  {{ super() }}
+{% endblock %}

@@ -1,0 +1,109 @@
+site_name: Tally Prime & GST Mastery Path
+site_description: A structured, module-wise TallyPrime and GST accounting training program from entry level to master level, covering bookkeeping, inventory, GST returns, TDS, payroll and year-end closing.
+site_url: https://learnmasterypath.com/tally-gst-mastery-path/
+repo_url: https://github.com/SIGILIPELLI/tally-gst-mastery-path
+repo_name: tally-gst-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · Accounting Fundamentals & the Golden Rules": level-1/01-accounting-fundamentals-and-the-golden-rules.md
+      - "02 · Getting Started with TallyPrime": level-1/02-getting-started-with-tallyprime.md
+      - "03 · Ledgers & Groups": level-1/03-ledgers-and-groups.md
+      - "04 · Payment, Receipt, Contra & Journal Vouchers": level-1/04-payment-receipt-contra-and-journal-vouchers.md
+      - "05 · Sales & Purchase Vouchers": level-1/05-sales-and-purchase-vouchers.md
+      - "06 · Inventory Basics: Stock Items, Groups & Units": level-1/06-inventory-basics-stock-items-groups-and-units.md
+      - "07 · Bank Reconciliation": level-1/07-bank-reconciliation.md
+      - "08 · Core Reports: Day Book, Trial Balance, P&L, Balance Sheet": level-1/08-core-reports-day-book-trial-balance-pandl-balance-sheet.md
+      - "09 · GST Fundamentals: CGST, SGST, IGST & Registration": level-1/09-gst-fundamentals-cgst-sgst-igst-and-registration.md
+      - "10 · Project — One Month of Books for a Trading Business": level-1/10-project-one-month-of-books-for-a-trading-business.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · GST Setup in TallyPrime": level-2/01-gst-setup-in-tallyprime.md
+      - "02 · GST Invoicing: HSN/SAC, Tax Rates & Place of Supply": level-2/02-gst-invoicing-hsn-sac-tax-rates-and-place-of-supply.md
+      - "03 · Input Tax Credit & GSTR-2B Reconciliation": level-2/03-input-tax-credit-and-gstr-2b-reconciliation.md
+      - "04 · GSTR-1 and GSTR-3B Returns": level-2/04-gstr-1-and-gstr-3b-returns.md
+      - "05 · Credit Notes, Debit Notes & Sales Returns": level-2/05-credit-notes-debit-notes-and-sales-returns.md
+      - "06 · E-Invoicing & E-Way Bills": level-2/06-e-invoicing-and-e-way-bills.md
+      - "07 · Reverse Charge & the Composition Scheme": level-2/07-reverse-charge-and-the-composition-scheme.md
+      - "08 · Bill-wise Details: Receivables & Payables": level-2/08-bill-wise-details-receivables-and-payables.md
+      - "09 · Cost Centres & Budgets": level-2/09-cost-centres-and-budgets.md
+      - "10 · Project — A GST-Compliant Month for a Wholesaler": level-2/10-project-a-gst-compliant-month-for-a-wholesaler.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · TDS: Deduction, Payment & Returns": level-3/01-tds-deduction-payment-and-returns.md
+      - "02 · TCS & Other Withholdings": level-3/02-tcs-and-other-withholdings.md
+      - "03 · Payroll: Salary, PF & ESI": level-3/03-payroll-salary-pf-and-esi.md
+      - "04 · Advanced Inventory: Batches, Godowns & Valuation": level-3/04-advanced-inventory-batches-godowns-and-valuation.md
+      - "05 · Manufacturing: Bill of Materials & Job Work": level-3/05-manufacturing-bill-of-materials-and-job-work.md
+      - "06 · Banking: Cheques, e-Payments & Post-Dated Cheques": level-3/06-banking-cheques-e-payments-and-post-dated-cheques.md
+      - "07 · Foreign Currency & Exports": level-3/07-foreign-currency-and-exports.md
+      - "08 · Year-End Adjustments: Depreciation & Provisions": level-3/08-year-end-adjustments-depreciation-and-provisions.md
+      - "09 · GSTR-9 Annual Return & Audit Readiness": level-3/09-gstr-9-annual-return-and-audit-readiness.md
+      - "10 · Project — Quarter-End Close for a Manufacturer": level-3/10-project-quarter-end-close-for-a-manufacturer.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Financial Statement Analysis & Ratios": level-4/01-financial-statement-analysis-and-ratios.md
+      - "02 · MIS Reports for Management": level-4/02-mis-reports-for-management.md
+      - "03 · Internal Controls, Security & the Edit Log": level-4/03-internal-controls-security-and-the-edit-log.md
+      - "04 · Data Management: Backup, Restore & Split": level-4/04-data-management-backup-restore-and-split.md
+      - "05 · The Annual Compliance Calendar": level-4/05-the-annual-compliance-calendar.md
+      - "06 · Accounting for Startups & MSMEs": level-4/06-accounting-for-startups-and-msmes.md
+      - "07 · Moving to an ERP: Tally, Zoho, SAP & Oracle": level-4/07-moving-to-an-erp-tally-zoho-sap-and-oracle.md
+      - "08 · Running an Accounting Practice": level-4/08-running-an-accounting-practice.md
+      - "09 · Career Paths: Accountant to Finance Manager": level-4/09-career-paths-accountant-to-finance-manager.md
+      - "10 · Capstone — A Full Year of Books & Compliance": level-4/10-capstone-a-full-year-of-books-and-compliance.md
