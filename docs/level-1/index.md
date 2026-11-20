@@ -1,3 +1,7 @@
+---
+description: "Level 1 (Entry) of the free Tally Prime & GST Mastery Path. Learn double-entry accounting, set up a company in TallyPrime, record everyday transactions, and…"
+---
+
 # Level 1 · Entry <span class="level-badge">Foundations</span>
 
 Goal: learn double-entry accounting, set up a company in TallyPrime, record everyday transactions, and finish with a month of books for a small trading business.

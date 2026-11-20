@@ -1,3 +1,7 @@
+---
+description: "Level 3 (Advanced) of the free Tally Prime & GST Mastery Path. Handle withholding taxes, payroll, advanced stock, manufacturing, foreign currency and…"
+---
+
 # Level 3 · Advanced <span class="level-badge">Compliance & Operations</span>
 
 Goal: handle withholding taxes, payroll, advanced stock, manufacturing, foreign currency and year-end closing for a growing business.

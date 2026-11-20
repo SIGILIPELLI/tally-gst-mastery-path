@@ -1,3 +1,7 @@
+---
+description: "Level 4 (Master) of the free Tally Prime & GST Mastery Path. Go beyond data entry — analyse results, report to management, control risk, keep data safe…"
+---
+
 # Level 4 · Master <span class="level-badge">Analysis & Career</span>
 
 Goal: go beyond data entry — analyse results, report to management, control risk, keep data safe, stay compliant all year — and build an accounting career.

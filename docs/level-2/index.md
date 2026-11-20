@@ -1,3 +1,7 @@
+---
+description: "Level 2 (Intermediate) of the free Tally Prime & GST Mastery Path. Run GST end to end in TallyPrime — compliant invoices, input tax credit, monthly returns…"
+---
+
 # Level 2 · Intermediate <span class="level-badge">GST in Practice</span>
 
 Goal: run GST end to end in TallyPrime — compliant invoices, input tax credit, monthly returns, notes, e-invoices and e-way bills — and track receivables and costs.
