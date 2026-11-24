@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://learnmasterypath.com/tally-gst-mastery-path/sitemap.xml
